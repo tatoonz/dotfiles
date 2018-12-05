@@ -25,8 +25,9 @@ fi
 /usr/local/bin/brew tap sambadevi/powerlevel9k && \
 
 /usr/local/bin/brew install \
+    node \
     telnet \
-    node
+    zsh-syntax-highlighting
 
 /usr/local/bin/brew cask install \
     docker \
@@ -34,6 +35,7 @@ fi
     google-chrome \
     iterm2 \
     postman \
+    robo-3t \
     slack \
     visual-studio-code
 
